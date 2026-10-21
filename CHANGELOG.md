@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Changed
+## v1.0.0 - 2026-10-21
 
 - Upgrade to Node.js 24 (LTS): Docker base image, `.nvmrc`, CI workflow and `engines` field
 - Upgrade dependencies: `@mia-platform/custom-plugin-lib` to v8, `eslint` to v10, `@mia-platform/eslint-config-mia` to v10, `tap` to v21, `pre-commit` to v2
