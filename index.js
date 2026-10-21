@@ -17,6 +17,7 @@
 'use strict'
 
 const customService = require('@mia-platform/custom-plugin-lib')()
+
 const robotHello = require('./handlers/robotHello')
 
 module.exports = customService(async function index(service) {

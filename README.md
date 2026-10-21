@@ -1,4 +1,4 @@
-# Node.js Hello World Example walkthrough
+# Academy Node.js Hello World Example walkthrough
 
 [![Build Status][github-actions-svg]][github-actions]
 [![Coverage Status][coverall-svg]][coverall-io]
@@ -11,7 +11,7 @@ In order to do so, access to [Mia-Platform DevOps Console](https://console.cloud
 From the Design area of your project select _Microservices_ and then create a new one, you have now reached [Mia-Platform Marketplace](https://docs.mia-platform.eu/docs/marketplace/overview_marketplace)!  
 In the marketplace you will see a set of Examples and Templates that can be used to set-up microservices with a predefined and tested function.  
 
-For this walkthrough select the following example: **Node.js HelloWorld Microservice Example**.
+For this walkthrough select the following example: **Academy Node.js HelloWorld Microservice Example**.
 Give your microservice the name you prefer, in this walkthrough we'll refer to it with the following name: **hello-example**. Then, fill the other required fields and confirm that you want to create a microservice.  
 A more detailed description on how to create a Microservice can be found in [Microservice from template - Get started](https://docs.mia-platform.eu/docs/development_suite/api-console/api-design/custom_microservice_get_started#1-microservice-creation) section of Mia-Platform documentation.
 
@@ -39,7 +39,7 @@ Step 4 of [Microservice from template - Get started](https://docs.mia-platform.e
 Now, if you launch the following command on your terminal (remember to replace `<YOUR_PROJECT_HOST>` with the real host of your project):
 
 ```shell
-curl <YOUR_PROJECT_HOST>/salutation/hello
+curl <YOUR_PROJECT_HOST>/hello
 ```
 
 you should see the following message:
